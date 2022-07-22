@@ -52,7 +52,7 @@ h1{
 }
 button {
     background-color: #3882F6;
-    padding: 15px 25px;
+    padding: 8px 25px;
     align-self: flex-start;   
     border-radius: 25px; 
     border: 0;
@@ -105,7 +105,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 75px 175px 125px;
+    padding: 100px 175px 100px;
 }
 .quote q{
     font-style: italic;
@@ -116,6 +116,35 @@ button {
     text-align: end;
     font-weight: 900;
     font-size: 18px;
-    padding-top: 50px;
+    padding-top: 35px;
     padding-right: 55px;
+}
+
+/* Call to action */
+.action_container {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px 190px 100px;
+    color: white;
+    border-radius: 25px;
+    padding: 50px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+#p1{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+.action_container1 p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+#bottom_button {
+    background-color: white;
+}
+#bottom_button a{
+    color: black;
 }
