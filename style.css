@@ -99,3 +99,23 @@ button {
     border-radius: 25px;
     height: 200px;
 }
+
+/* Quote */
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 75px 175px 125px;
+}
+.quote q{
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+.quote figcaption {
+    text-align: end;
+    font-weight: 900;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-right: 55px;
+}
