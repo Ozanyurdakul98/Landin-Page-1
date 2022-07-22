@@ -148,3 +148,12 @@ button {
 #bottom_button a{
     color: black;
 }
+
+/* footer */
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+}
